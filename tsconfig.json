@@ -1,0 +1,15 @@
+{
+
+    "compilerOptions": {
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "./nodeJS",
+        "sourceMap": true,
+        "moduleResolution": "node",  
+        "lib": ["es5", "es2015.promise"]
+    },
+    "include": [
+        "deno/**/*.ts",
+        "deno/**/*.d.ts"
+    ],
+}
