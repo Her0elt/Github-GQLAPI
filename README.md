@@ -10,13 +10,13 @@ To use the module you will need the JavaScript and TypeScript runtime [Deno](htt
 
 import { getPinned } from "https://github.com/Her0elt/Github-GQLAPI/raw/master/deno/main.ts"
 
-const pinns = getPinned("github_username", nr_of_pinns, "github_token")
+const pinns = await getPinned("github_username", nr_of_pinns, "github_token")
 
 //with types
 
 import { getPinned, Repo } from "https://github.com/Her0elt/Github-GQLAPI/raw/master/deno/main.ts"
 
-const pinns: Array<Repo> = getPinned("github_username", nr_of_pinns, "github_token")
+const pinns: Array<Repo> = await getPinned("github_username", nr_of_pinns, "github_token")
 
 //If you only want your own pinns 
 
