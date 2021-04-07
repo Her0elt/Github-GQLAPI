@@ -45,4 +45,4 @@ You need the --allow-net flag because the module uses fetch to make the request 
 Make sure that your GitHub Token is correct, If it's not correct this might result in TypeError
 
 ## NodeJS 
-It also does support nodeJS from the mainNode.js file, but this is not the main focus of this project and is just a copy paste version of the Deno implementation just roughly translate into JS with tsc, this is al.
+It also does support nodeJS from the main.js file, but this is not the main focus of this project and is just a copy paste version of the Deno implementation just roughly translate into JS with the Typescript compiler tsc.
